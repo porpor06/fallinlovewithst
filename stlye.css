@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('316PANIKhaoJaiDemo-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    text-align: center;
+    background-color: #fbe8e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#message-box {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff7f7f;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff5252;
+}
+
+.hidden {
+    display: none;
+}
