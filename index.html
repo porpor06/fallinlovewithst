@@ -7,20 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- วิดีโอพื้นหลัง -->
-    <video autoplay muted loop id="background-video">
-        <source src="https://raw.githubusercontent.com/porpor06/fallinlovewithst/main/backdrop.mov" type="video/mp4">
+    <!-- ใช้ video เป็นพื้นหลัง -->
+    <video autoplay loop muted id="video-background">
+        <source src="backdrop.mov" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
-    <!-- เพลงพื้นหลัง -->
-    <audio id="bg-music" autoplay loop>
-        <source src="https://raw.githubusercontent.com/porpor06/fallinlovewithst/main/music.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
+    <div id="content">
+        <!-- เนื้อหาหรือข้อความของเว็บ -->
+        <h1>ยินดีต้อนรับสู่เว็บไซต์ของเรา</h1>
+        <!-- คุณสามารถเพิ่มข้อความอื่น ๆ ที่นี่ -->
+    </div>
 
-    <div id="content"></div>
+    <audio id="bg-music" src="music.mp3" autoplay loop></audio>
     <script src="script.js"></script>
 </body>
 </html>
