@@ -6,7 +6,7 @@
 body {
     font-family: 'CustomFont', sans-serif;
     text-align: center;
-    background-color: #fbe8e7;
+    background-color: #fff8e7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,33 +14,15 @@ body {
     margin: 0;
 }
 
-#container {
-    max-width: 600px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-#message-box {
+#content {
     font-size: 24px;
-    margin-bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 
 button {
-    font-size: 18px;
     padding: 10px 20px;
-    border: none;
-    background-color: #ff7f7f;
-    color: white;
+    font-size: 18px;
+    margin-top: 20px;
     cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #ff5252;
-}
-
-.hidden {
-    display: none;
 }
